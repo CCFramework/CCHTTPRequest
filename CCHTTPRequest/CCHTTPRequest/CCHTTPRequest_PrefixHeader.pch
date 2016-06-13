@@ -1,0 +1,22 @@
+//
+//  CCHTTPRequest_PrefixHeader.pch
+//  CCHTTPRequest
+//
+//  Created by 李飞恒 on 16/3/21.
+//  Copyright © 2016年 MuZiLee. All rights reserved.
+//
+
+#ifndef CCHTTPRequest_PrefixHeader_pch
+#define CCHTTPRequest_PrefixHeader_pch
+#import <CoreGraphics/CoreGraphics.h>
+#import <Foundation/Foundation.h>
+#import <ReplayKit/ReplayKit.h>
+#import <UIKit/UIKit.h>
+#include <objc/objc.h>
+#include <objc/NSObjCRuntime.h>
+
+#import "CCHTTPRequest.h"
+
+
+
+#endif /* CCHTTPRequest_PrefixHeader_pch */

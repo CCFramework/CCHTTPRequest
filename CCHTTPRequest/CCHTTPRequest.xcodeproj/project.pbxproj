@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDE5DB581C9F30B20052184A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE5DB571C9F30B20052184A /* main.m */; };
+		FDE5DB5B1C9F30B20052184A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE5DB5A1C9F30B20052184A /* AppDelegate.m */; };
+		FDE5DB5E1C9F30B20052184A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE5DB5D1C9F30B20052184A /* ViewController.m */; };
+		FDE5DB611C9F30B20052184A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE5DB5F1C9F30B20052184A /* Main.storyboard */; };
+		FDE5DB631C9F30B20052184A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE5DB621C9F30B20052184A /* Assets.xcassets */; };
+		FDE5DB661C9F30B20052184A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE5DB641C9F30B20052184A /* LaunchScreen.storyboard */; };
+		FDE5DB771C9F32BE0052184A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE5DB741C9F32BE0052184A /* AVFoundation.framework */; };
+		FDE5DB781C9F32BE0052184A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE5DB751C9F32BE0052184A /* CoreFoundation.framework */; };
+		FDE5DB791C9F32BE0052184A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE5DB761C9F32BE0052184A /* Foundation.framework */; };
+		FDE5DB7B1C9F330E0052184A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE5DB7A1C9F330E0052184A /* AudioToolbox.framework */; };
+		FDE5DB7E1C9F33250052184A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE5DB7C1C9F33250052184A /* libc++.tbd */; };
+		FDE5DB7F1C9F33250052184A /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE5DB7D1C9F33250052184A /* libstdc++.tbd */; };
+		FDE5DB811C9F33310052184A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE5DB801C9F33310052184A /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDE5DB531C9F30B20052184A /* CCHTTPRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCHTTPRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE5DB571C9F30B20052184A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDE5DB591C9F30B20052184A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDE5DB5A1C9F30B20052184A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDE5DB5C1C9F30B20052184A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDE5DB5D1C9F30B20052184A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDE5DB601C9F30B20052184A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDE5DB621C9F30B20052184A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDE5DB651C9F30B20052184A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDE5DB671C9F30B20052184A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE5DB6F1C9F32000052184A /* CCHTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCHTTPRequest.h; sourceTree = "<group>"; };
+		FDE5DB701C9F32000052184A /* CCHTTPRequestConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCHTTPRequestConfig.h; sourceTree = "<group>"; };
+		FDE5DB711C9F32000052184A /* CCHTTPRequestDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		FDE5DB721C9F32000052184A /* CCProgressDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCProgressDelegate.h; sourceTree = "<group>"; };
+		FDE5DB731C9F32250052184A /* CCHTTPRequest_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCHTTPRequest_PrefixHeader.pch; sourceTree = "<group>"; };
+		FDE5DB741C9F32BE0052184A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FDE5DB751C9F32BE0052184A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FDE5DB761C9F32BE0052184A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDE5DB7A1C9F330E0052184A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FDE5DB7C1C9F33250052184A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FDE5DB7D1C9F33250052184A /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		FDE5DB801C9F33310052184A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDE5DB501C9F30B20052184A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE5DB811C9F33310052184A /* libz.tbd in Frameworks */,
+				FDE5DB7E1C9F33250052184A /* libc++.tbd in Frameworks */,
+				FDE5DB7F1C9F33250052184A /* libstdc++.tbd in Frameworks */,
+				FDE5DB7B1C9F330E0052184A /* AudioToolbox.framework in Frameworks */,
+				FDE5DB771C9F32BE0052184A /* AVFoundation.framework in Frameworks */,
+				FDE5DB781C9F32BE0052184A /* CoreFoundation.framework in Frameworks */,
+				FDE5DB791C9F32BE0052184A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDE5DB4A1C9F30B10052184A = {
+			isa = PBXGroup;
+			children = (
+				FDE5DB551C9F30B20052184A /* CCHTTPRequest */,
+				FDE5DB541C9F30B20052184A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE5DB541C9F30B20052184A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDE5DB531C9F30B20052184A /* CCHTTPRequest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDE5DB551C9F30B20052184A /* CCHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FDE5DB591C9F30B20052184A /* AppDelegate.h */,
+				FDE5DB5A1C9F30B20052184A /* AppDelegate.m */,
+				FDE5DB5C1C9F30B20052184A /* ViewController.h */,
+				FDE5DB5D1C9F30B20052184A /* ViewController.m */,
+				FDE5DB6E1C9F31250052184A /* CCHTTPRequestFramework */,
+				FDE5DB621C9F30B20052184A /* Assets.xcassets */,
+				FDE5DB561C9F30B20052184A /* Supporting Files */,
+			);
+			path = CCHTTPRequest;
+			sourceTree = "<group>";
+		};
+		FDE5DB561C9F30B20052184A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDE5DB801C9F33310052184A /* libz.tbd */,
+				FDE5DB7C1C9F33250052184A /* libc++.tbd */,
+				FDE5DB7D1C9F33250052184A /* libstdc++.tbd */,
+				FDE5DB7A1C9F330E0052184A /* AudioToolbox.framework */,
+				FDE5DB741C9F32BE0052184A /* AVFoundation.framework */,
+				FDE5DB751C9F32BE0052184A /* CoreFoundation.framework */,
+				FDE5DB761C9F32BE0052184A /* Foundation.framework */,
+				FDE5DB5F1C9F30B20052184A /* Main.storyboard */,
+				FDE5DB641C9F30B20052184A /* LaunchScreen.storyboard */,
+				FDE5DB671C9F30B20052184A /* Info.plist */,
+				FDE5DB731C9F32250052184A /* CCHTTPRequest_PrefixHeader.pch */,
+				FDE5DB571C9F30B20052184A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDE5DB6E1C9F31250052184A /* CCHTTPRequestFramework */ = {
+			isa = PBXGroup;
+			children = (
+				FDE5DB6F1C9F32000052184A /* CCHTTPRequest.h */,
+				FDE5DB701C9F32000052184A /* CCHTTPRequestConfig.h */,
+				FDE5DB711C9F32000052184A /* CCHTTPRequestDelegate.h */,
+				FDE5DB721C9F32000052184A /* CCProgressDelegate.h */,
+			);
+			name = CCHTTPRequestFramework;
+			path = ../../CCHTTPRequestFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDE5DB521C9F30B20052184A /* CCHTTPRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE5DB6A1C9F30B30052184A /* Build configuration list for PBXNativeTarget "CCHTTPRequest" */;
+			buildPhases = (
+				FDE5DB4F1C9F30B20052184A /* Sources */,
+				FDE5DB501C9F30B20052184A /* Frameworks */,
+				FDE5DB511C9F30B20052184A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCHTTPRequest;
+			productName = CCHTTPRequest;
+			productReference = FDE5DB531C9F30B20052184A /* CCHTTPRequest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDE5DB4B1C9F30B10052184A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MuZiLee;
+				TargetAttributes = {
+					FDE5DB521C9F30B20052184A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FDE5DB4E1C9F30B20052184A /* Build configuration list for PBXProject "CCHTTPRequest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDE5DB4A1C9F30B10052184A;
+			productRefGroup = FDE5DB541C9F30B20052184A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDE5DB521C9F30B20052184A /* CCHTTPRequest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDE5DB511C9F30B20052184A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE5DB661C9F30B20052184A /* LaunchScreen.storyboard in Resources */,
+				FDE5DB631C9F30B20052184A /* Assets.xcassets in Resources */,
+				FDE5DB611C9F30B20052184A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDE5DB4F1C9F30B20052184A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE5DB5E1C9F30B20052184A /* ViewController.m in Sources */,
+				FDE5DB5B1C9F30B20052184A /* AppDelegate.m in Sources */,
+				FDE5DB581C9F30B20052184A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDE5DB5F1C9F30B20052184A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE5DB601C9F30B20052184A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDE5DB641C9F30B20052184A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE5DB651C9F30B20052184A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDE5DB681C9F30B20052184A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDE5DB691C9F30B20052184A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDE5DB6B1C9F30B30052184A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CCHTTPRequest/CCHTTPRequest_PrefixHeader.pch;
+				INFOPLIST_FILE = CCHTTPRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifeiheng.CCHTTPRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDE5DB6C1C9F30B30052184A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CCHTTPRequest/CCHTTPRequest_PrefixHeader.pch;
+				INFOPLIST_FILE = CCHTTPRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifeiheng.CCHTTPRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDE5DB4E1C9F30B20052184A /* Build configuration list for PBXProject "CCHTTPRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE5DB681C9F30B20052184A /* Debug */,
+				FDE5DB691C9F30B20052184A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE5DB6A1C9F30B30052184A /* Build configuration list for PBXNativeTarget "CCHTTPRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE5DB6B1C9F30B30052184A /* Debug */,
+				FDE5DB6C1C9F30B30052184A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDE5DB4B1C9F30B10052184A /* Project object */;
+}
